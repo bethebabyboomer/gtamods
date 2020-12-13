@@ -1,0 +1,1 @@
+const selectElement=(e)=> document.querySelector(e);selectElement('.open').addEventListener('click', ()=>{selectElement('.nav-list').classList.add('active');});selectElement('.close').addEventListener('click', ()=>{selectElement('.nav-list').classList.remove('active');});const links=document.querySelectorAll('a');links.forEach(link=>{link.setAttribute('draggable', 'false');});
